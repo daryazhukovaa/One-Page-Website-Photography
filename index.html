@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan Photography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home">ALEX<span>MORGAN</span></a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Capturing Life's Beautiful Moments</h1>
+            <p>Professional Photography for Weddings, Portraits, and Commercial Projects</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Hire Me</a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image"></div>
+                <div class="about-text">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Hey, I'm Alex Morgan</h2>
+                    <p>I'm a professional photographer based in New York with over 10 years of experience capturing life's most precious moments. My journey in photography began when I was just 16, and since then, it has evolved from a passion into a career I deeply love.</p>
+                    <p>My style combines creative composition with natural lighting to create timeless, emotive images. I believe every photo should tell a story and evoke genuine emotion.</p>
+                    <p>When I'm not behind the camera, you'll find me hiking in nature, exploring new coffee shops, or spending time with my family and our golden retriever, Max.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <span class="number">10+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                        <div class="detail">
+                            <span class="number">250+</span>
+                            <span class="text">Photoshoots</span>
+                        </div>
+                        <div class="detail">
+                            <span class="number">50+</span>
+                            <span class="text">Happy Clients</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn primary-btn">Let's Work Together</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <span class="section-subtitle">My Work</span>
+            <h2 class="section-title">Portfolio Gallery</h2>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+                <button class="filter-btn" data-filter="portrait">Portrait</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?wedding" alt="Wedding Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Summer Wedding</h3>
+                            <span>Wedding Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?portrait" alt="Portrait Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Fashion Portrait</h3>
+                            <span>Portrait Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?product" alt="Commercial Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Product Showcase</h3>
+                            <span>Commercial Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="nature">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?landscape" alt="Nature Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Mountain Sunrise</h3>
+                            <span>Nature Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?bride" alt="Wedding Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Bridal Preparation</h3>
+                            <span>Wedding Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?family" alt="Portrait Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Family Session</h3>
+                            <span>Portrait Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?food" alt="Commercial Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Restaurant Menu</h3>
+                            <span>Commercial Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="nature">
+                    <div class="portfolio-image">
+                        <img src="https://source.unsplash.com/random/600x600/?wildlife" alt="Nature Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Wildlife Encounters</h3>
+                            <span>Nature Photography</span>
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-button">
+                <a href="#" class="btn secondary-btn">View Complete Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Photography Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wedding Photography</h3>
+                    <p>Capturing the love, joy, and precious moments of your special day with a blend of candid and posed photography.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Engagement Session</li>
+                        <li><i class="fas fa-check"></i> All-Day Coverage</li>
+                        <li><i class="fas fa-check"></i> Digital Album</li>
+                        <li><i class="fas fa-check"></i> Print Options</li>
+                    </ul>
+                    <a href="#contact" class="btn primary-btn">Book Now</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Portrait Photography</h3>
+                    <p>Professional portraits that capture your unique personality, whether for family, graduation, professional headshots, or personal branding.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Indoor/Outdoor Sessions</li>
+                        <li><i class="fas fa-check"></i> Multiple Outfits</li>
+                        <li><i class="fas fa-check"></i> Edited Images</li>
+                        <li><i class="fas fa-check"></i> Quick Turnaround</li>
+                    </ul>
+                    <a href="#contact" class="btn primary-btn">Book Now</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Photography</h3>
+                    <p>High-quality images for your business needs, including product photography, real estate, corporate events, and marketing materials.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Product Showcasing</li>
+                        <li><i class="fas fa-check"></i> Business Spaces</li>
+                        <li><i class="fas fa-check"></i> Event Coverage</li>
+                        <li><i class="fas fa-check"></i> Marketing Content</li>
+                    </ul>
+                    <a href="#contact" class="btn primary-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Capture Your Special Moment?</h2>
+            <p>Let's create beautiful images together that you'll cherish forever.</p>
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <span class="section-subtitle">Happy Clients</span>
+            <h2 class="section-title">What People Say</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Alex captured our wedding day perfectly! The photos are stunning and really show the emotion and joy of our special day. Working with Alex was effortless, and the results exceeded our expectations."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://source.unsplash.com/random/100x100/?woman')"></div>
+                        <div class="author-info">
+                            <h4>Sarah & David Johnson</h4>
+                            <span>Wedding Clients</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"The family portraits Alex took for us are absolutely amazing. They captured our kids' personalities perfectly. The session was fun and relaxed, and the images are exactly what we wanted."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://source.unsplash.com/random/100x100/?man')"></div>
+                        <div class="author-info">
+                            <h4>Michael Rodriguez</h4>
+                            <span>Family Portrait Client</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"We hired Alex for our product launch campaign, and the images were spectacular. The attention to detail and understanding of our brand vision made all the difference. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://source.unsplash.com/random/100x100/?businesswoman')"></div>
+                        <div class="author-info">
+                            <h4>Jennifer Park</h4>
+                            <span>Marketing Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p>Have a photography project in mind? Want to book a session or inquire about my services? Fill out the form or reach out directly via email or phone.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Location</h4>
+                            <p>123 Photography Street, New York, NY 10001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Email</h4>
+                            <p>alex@morganphotography.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Weekends: By Appointment</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Service Type</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="portrait">Portrait Photography</option>
+                                <option value="commercial">Commercial Photography</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">ALEX<span>MORGAN</span></a>
+                    <p>Capturing Life's Beautiful Moments</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Wedding Photography</a></li>
+                        <li><a href="#services">Portrait Photography</a></li>
+                        <li><a href="#services">Commercial Photography</a></li>
+                        <li><a href="#services">Event Photography</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get photography tips and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email Address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alex Morgan Photography. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.nav-menu').classList.remove('active');
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Portfolio Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
